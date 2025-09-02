@@ -1,7 +1,7 @@
 body{
     margin:0;
     font-family: Arial,  sans-serif;
-    display:flex;
+    
     
 }
 
@@ -29,6 +29,6 @@ body{
     .content {
       margin-left: 220px; /* same as sidebar width */
       padding: 20px;
-      flex: 1;
+      min-height: 100vh; /* full height */
     background-color: lightblue;
     }
