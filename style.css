@@ -43,5 +43,5 @@ body{
       background-repeat: no-repeat; /* Prevent tiling */
       background-position: center; /* Center the image */
       z-index: -1; /* Place it behind other content */
-      opacity: 0.3; /* Adjust opacity as needed */
+      opacity: 1; /* Adjust opacity as needed */
     }
