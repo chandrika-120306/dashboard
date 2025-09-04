@@ -29,7 +29,7 @@ body{
       width: calc(100%-220px); /* same as sidebar width */
       padding: 20px;
       min-height: 100vh; /* full height */
-    background-color: rgba(210, 105, 30, 0.508);
+    background-color: whitesmoke;
     }
     @keyframes fadeInup {
       0% {
