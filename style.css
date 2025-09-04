@@ -29,18 +29,9 @@ body{
       width: calc(100%-220px); /* same as sidebar width */
       padding: 20px;
       min-height: 100vh; /* full height */
-    background-color: whitesmoke;
+    background-color:lightslategray;
     }
-    @keyframes fadeInup {
-      0% {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
+    
     .bg {
       position: fixed;
       top: 0;
