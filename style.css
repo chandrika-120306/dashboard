@@ -10,6 +10,7 @@ body{
       color: white;
       padding-top: 20px;
       position: fixed;
+      overflow-y: scroll;
     }
 
     .sidebar a {
