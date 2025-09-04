@@ -45,3 +45,21 @@ body{
       z-index: -1; /* Place it behind other content */
       opacity: 1; /* Adjust opacity as needed */
     }
+    #firsthead{
+      color:rgb(0, 60, 128);
+      font-size: 4rem;
+      text-shadow: 2px 2px 10px black;
+      font-weight: bold;
+      text-align: center;
+      animation: ZoomIn 2s ease forwards;
+    }
+    @keyframes ZoomIn {
+      from {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
