@@ -31,3 +31,10 @@ body{
       min-height: 100vh; /* full height */
     background-color: chocolate;
     }
+    @keyframes fadeInup {
+    
+      to{
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
