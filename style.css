@@ -60,6 +60,7 @@ body{
       gap: 20px;
       padding: 20px;
 border-color: black;
+align-items: center;
     }
     @keyframes ZoomIn {
       from {
