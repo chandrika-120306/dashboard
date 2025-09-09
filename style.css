@@ -104,4 +104,9 @@ body{
       white-space: pre-wrap; /* Preserve whitespace and wrap as needed */
       word-wrap: break-word; /* Break long words if necessary */
       font-family: monospace;
+      overflow-x: auto; 
+      font-size: 14px;/* Add horizontal scrollbar if needed */
+      padding: 10px;
+      background-color:#f0f0f0;
+      border-radius: 8px;
     }
