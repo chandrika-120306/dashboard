@@ -54,6 +54,13 @@ body{
       text-align: center;
       animation: ZoomIn 2s ease forwards;
     }
+    .imagegrid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+border-color: black;
+    }
     @keyframes ZoomIn {
       from {
         transform: scale(0.5);
