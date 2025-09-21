@@ -32,6 +32,13 @@ body{
       min-height: 100vh; /* full height */
     background-color:lightslategray;
     }
+    #myphoto{
+       width:200px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+    }
     
     .bg {
       position: fixed;
